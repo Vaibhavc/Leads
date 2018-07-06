@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="23.786492">
+<testcase classname="Lead Testing" name="Verify Get updates form" time="23.786492">
+<system-out><![CDATA[Given user is on Homepage...................................................passed
+When user clicks on Get updates Link........................................passed
+Then user verifies Golf form................................................passed
+And user enters details.....................................................passed
+And user click on submit button.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

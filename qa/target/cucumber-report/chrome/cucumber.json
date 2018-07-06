@@ -1,0 +1,235 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 250714216,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on vehicle Homepage",
+            "match": {
+              "location": "StepDef.user_is_on_Homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "verify Get updates form with email from HomePage",
+        "description": "",
+        "id": "get-update-lead-testing;verify-get-updates-form-with-email-from-homepage;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 38111955279,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on Get updates Link",
+            "match": {
+              "location": "StepDef.user_clicks_on_Get_updates_Link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3149166331,
+              "error_message": "java.lang.AssertionError: expected:\u003ctrue\u003e but was:\u003cfalse\u003e\r\n\tat org.testng.Assert.fail(Assert.java:89)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:489)\r\n\tat org.testng.Assert.assertTrue(Assert.java:37)\r\n\tat org.testng.Assert.assertTrue(Assert.java:47)\r\n\tat com.practice.qa.Homepage.VerifyGetUpdateForm(Homepage.java:142)\r\n\tat com.practice.qa.StepDef.user_verifies_Golf_form(StepDef.java:24)\r\n\tat ✽.Then user verifies Golf form(GUP.feature:11)\r\n",
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "user verifies Golf form",
+            "match": {
+              "location": "StepDef.user_verifies_Golf_form()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user enters details firstname as \"Ftest\" lastname as \"LTest\" and zip as \"48127\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ftest",
+                  "offset": 34
+                },
+                {
+                  "val": "LTest",
+                  "offset": 54
+                },
+                {
+                  "val": "48127",
+                  "offset": 73
+                }
+              ],
+              "location": "StepDef.user_enters_details_firstname_as_lastname_as_and_zip_as(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user enter email as \"test@test.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@test.com",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDef.user_enter_email_as(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user click on submit button",
+            "match": {
+              "location": "StepDef.user_click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user login to handraiser db on new tab",
+            "match": {
+              "location": "StepDef.accessHandRaiser()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user searches for the Lead",
+            "match": {
+              "location": "StepDef.user_searches_for_the_Lead()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user verifies \"LTest\", \"48127\", szBrchr as \"NoBlank\", szQA as \"0799A\",szLanguage as \"en\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LTest",
+                  "offset": 15
+                },
+                {
+                  "val": "48127",
+                  "offset": 24
+                },
+                {
+                  "val": "NoBlank",
+                  "offset": 44
+                },
+                {
+                  "val": "0799A",
+                  "offset": 63
+                },
+                {
+                  "val": "en",
+                  "offset": 85
+                }
+              ],
+              "location": "StepDef.user_verifies_szBrchr_as_szQA_as_szLanguage_as(String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user verifies  \"test@test.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@test.com",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDef.user_verifies(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user close the tab",
+            "match": {
+              "location": "StepDef.closeTab()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@GUPLeads"
+          },
+          {
+            "line": 8,
+            "name": "@Email"
+          }
+        ]
+      }
+    ],
+    "name": "Get Update Lead Testing",
+    "description": "I want to test Get Update leads used in Project",
+    "id": "get-update-lead-testing",
+    "keyword": "Feature",
+    "uri": "GUP.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@GUPLeads"
+      }
+    ]
+  }
+]

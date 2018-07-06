@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="ZIL209" name="cucumber.api.testng.AbstractTestNGCucumberTests" tests="1" failures="1" timestamp="6 Jul 2018 13:05:48 GMT" time="53.275" errors="0">
+  <testcase name="feature" time="41.551" classname="com.practice.qa.Runner">
+    <failure type="cucumber.runtime.CucumberException" message="java.lang.AssertionError: expected:&amp;lt;true&amp;gt; but was:&amp;lt;false&amp;gt;">
+      <![CDATA[cucumber.runtime.CucumberException: java.lang.AssertionError: expected:<true> but was:<false>
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:217)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:92)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: java.lang.AssertionError: expected:<true> but was:<false>
+	at com.practice.qa.Homepage.VerifyGetUpdateForm(Homepage.java:142)
+	at com.practice.qa.StepDef.user_verifies_Golf_form(StepDef.java:24)
+	at ✽.Then user verifies Golf form(GUP.feature:11)
+... Removed 26 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>

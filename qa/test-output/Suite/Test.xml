@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="ZIL209" name="cucumber.api.testng.AbstractTestNGCucumberTests" tests="1" failures="0" timestamp="6 Jul 2018 11:01:07 GMT" time="51.829" errors="0">
+  <testcase name="feature" time="40.53" classname="com.practice.qa.Runner"/>
+</testsuite>
