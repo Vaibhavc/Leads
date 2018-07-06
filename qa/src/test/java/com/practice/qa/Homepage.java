@@ -159,8 +159,8 @@ public class Homepage extends Base {
 				driver.get("http://wwwqa.ngptoolsus.dealerconnection.com/manager/debug/testdb.jsp?expert=true");
 
 				if (!isLoggedin) {
-					driver.findElement(By.id("DEALER-WSLXloginUserIdInput")).sendKeys("Bchamess");
-					driver.findElement(By.id("DEALER-WSLXloginPasswordInput")).sendKeys("Lps304");
+					driver.findElement(By.id("DEALER-WSLXloginUserIdInput")).sendKeys("");
+					driver.findElement(By.id("DEALER-WSLXloginPasswordInput")).sendKeys("");
 					driver.findElement(By.xpath("//input[@value='Login']")).click();
 					isLoggedin = true;
 					new WebDriverWait(driver, 30).until(
